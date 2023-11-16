@@ -1,5 +1,16 @@
-$primary-color:#44575C;
-$secondary-color:#0D7794;
-$accent-color:#B0C8CF;
+$primary-color: #2d4046;
+$secondary-color: #0d7794;
+$strong_lnk-color: #80b3bd;
+$accent-color: #b0c8cf;
+
+$font-weights: (
+  "normal": 300,
+  "medium": 500,
+  "bold": 800,
+);
+
+@mixin transition-efect {
+  transition: all 0.5s ease-in-out;
+}
 
 
